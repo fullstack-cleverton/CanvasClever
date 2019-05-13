@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Cloud</title>
+
+
+
+    <style>
+        /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+        
+        body {
+            height: 100vh;
+            width: 100vw;
+            color: red;
+            margin: 0;
+            padding: 0;
+        }
+        
+        div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .back {
+            background-image: url(https://source.unsplash.com/p7Yg03ba83M);
+        }
+        
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            mix-blend-mode: multiply;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>rr
+
+<body>
+
+    <div class="back">
+        <canvas id="dots"></canvas>
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
